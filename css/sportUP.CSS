@@ -1,0 +1,476 @@
+body{
+	
+	font-family: sans-serif;
+	text-align: justify;
+	background-image: url(../img/FUNDO.png);
+}
+.tudo{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.cabecalho{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 15vh;
+	justify-content: flex-end;
+}
+.retangulo{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 15vh;
+}
+.retangulo1{
+
+	display: flex;
+	background-color: ;
+	width: 13%;
+	height: 10vh;	
+}
+.img1{
+
+	width: 105%;
+	height: 60%;
+	float: left;	
+	margin: 37px 0px 0px 10px;
+}
+.retangulo2{
+
+	display: flex;
+	background-color: ;
+	width: 30%;
+	height: 15vh;		
+}
+.img2{
+
+	width: 100%;
+	height: 60%;
+	float: left;
+	margin:	23px 0px 0px 5px;
+}
+.retangulo3{
+
+	display: flex;
+	background-color: ;
+	width: 12%;
+	height: 12vh;
+	margin: 0px 0px 0px 475px;
+}
+.img3{
+
+	width: 90%;
+	height: 40%;
+	float: left;
+	margin: 48px 10px 0px 20px;
+}
+.retangulo4{
+
+	background-color: ;
+	width: 4.3%;
+	height: 13vh;
+}
+.img4{
+
+	width: 100%;
+	height: 57%;
+	float: left;
+	margin: 37px 0px 0px 0px;
+}
+.retangulo5{
+
+	background-color: ;
+	width: 4.3%;
+	height: 13vh;
+	margin: 0px 10px 0px 0px;
+}
+.img5{
+
+	width: 100%;
+	height: 53%;
+	float: left;
+	margin: 38px 0px 0px 0px;	
+}
+
+.pg1{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 50vh;
+	justify-content: flex-end;
+	margin: 20px 0px 0px 0px;
+}
+.pg1ret{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 50vh;
+}
+.pg1retImg{
+
+	background-color: black;
+	width: 100%;
+	height: 50vh;
+	margin: 0px 0px 0px 0px;
+}
+.img001{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.pg2{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 30vh;
+	justify-content: flex-end;
+	margin: 20px 0px 0px 0px;
+}
+.pg2ret{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 30vh;
+}
+.pg0001retImg{
+
+	background-color: black;
+	width: 23%;
+	height: 22vh;
+	margin: 10px 0px 0px 10px;
+}
+.img0001{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.pg0002retImg{
+
+	background-color: black;
+	width: 23%;
+	height: 22vh;
+	margin: 10px 0px 0px 30px;
+}
+.img0002{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.pg0003retImg{
+
+	background-color: black;
+	width: 23%;
+	height: 22vh;
+	margin: 10px 0px 0px 30px;
+}
+.img0003{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.pg0004retImg{
+
+	background-color: black;
+	width: 23%;
+	height: 22vh;
+	margin: 10px 10px 0px 30px;
+}
+.img0004{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.moranguinho{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 71vh;
+	justify-content: flex-end;
+	margin: 20px 0px 0px 0px;
+}
+.moranguinho00{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 71vh;	
+}
+.moranguinho001{
+
+	background-color: black;
+	width: 30%;
+	height: 68vh;
+	margin: 10px 0px 10px 10px;	
+}
+.moranguinhoimg01{
+
+	width: 100%;
+	height: 100%;
+	float: left;	
+}
+.moranguinho002{
+
+	background-color: white;
+	width: 38%;
+	height: 68vh;
+	margin: 0px 0px 30px 10px;	
+}
+.textao{
+
+	font-size: 21px;
+	margin: 12px 0px 0px 0px;	
+}
+.textao02{
+
+	font-size: 21px;
+}
+.textao03{
+
+	font-size: 21px;
+}
+
+.moranguinho003{
+
+	background-color: black;
+	width: 30%;
+	height: 68vh;
+	margin: 10px 10px 10px 10px;	
+}
+.moranguinhoimg03{
+
+	width: 100%;
+	height: 100%;
+	float: left;	
+}
+
+@media(max-width: 760px){
+	
+	.moranguinho003,  .retangulo1, .retangulo3,
+	 .retangulo4, .textao02, .textao03{
+
+	display: none;
+	}
+
+	.moranguinho001{
+
+	background-color: blue;
+	width: 55%;
+	height: 68vh;
+	margin: 10px 10px 10px 10px;	
+	}
+	.moranguinho002{
+
+	background-color: ;
+	width: 40%;
+	height: 68vh;
+	margin: 10px 10px 10px 0px;
+	}
+	
+	.pg0001retImg{
+
+	background-color: black;
+	width: 50%;
+	height: 22vh;
+	margin: 10px 0px 10px 10px;
+	}
+	.pg0002retImg{
+
+	background-color: black;
+	width: 50%;
+	height: 22vh;
+	margin: 10px 10px 10px 10px;
+	}
+	.pg1retImg{
+
+	background-color: pink;
+	width: 100%;
+	height: 50vh;
+	margin: 0px 0px 0px 0px;
+	}
+
+	.cabecalho{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 10vh;
+	justify-content: flex-end;
+	}
+	.retangulo{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 5vh;
+	}
+	.retangulo2{
+
+	display: flex;
+	background-color: ;
+	width: 30%;
+	height: 10vh;		
+	}
+	.img2{
+
+	width: 136%;
+	height: 60%;
+	float: left;
+	margin:	17px 0px 0px 5px;
+	}
+	.retangulo1{
+
+	display: flex;
+	background-color: ;
+	width: 10%;
+	height: 10vh;	
+	margin:	0px 0px 0px 70px;
+	}
+	.img1{
+
+	width: 180%;
+	height:	40%;
+	float: left;
+	margin:	23px 0px 0px 0px;	
+	}
+	.retangulo5{
+
+	background-color:;
+	width: 15%;
+	height: 10vh;
+	margin: 0px 10px 0px 250px;
+	}
+	.img5{
+
+	width: 50%;
+	height: 55%;
+	float: left;
+	margin: 20px 0px 0px 50px;	
+	}
+
+
+	.pg1{
+
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 30vh;
+	justify-content: flex-end;
+	margin: 20px 0px 0px 0px;
+	}
+	.pg1ret{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 30vh;
+	}
+	.pg1retImg{
+
+	background-color: black;
+	width: 100%;
+	height: 30vh;
+	margin: 0px 0px 0px 0px;
+	}
+
+
+	.pg2{
+
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	height: 65vh;
+	justify-content: flex-end;
+	margin: 20px 0px 0px 0px;
+	}
+	.pg2ret{
+
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	width: 100%;
+	height: 65vh;
+	justify-content: center;
+	}
+	.pg0001retImg{
+
+	background-color: black;
+	width: 47%;
+	height: 25vh;
+	margin: 10px 0px 0px 10px;
+	}
+	.img0001{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+	}
+	.pg0002retImg{
+
+	background-color: black;
+	width: 47%;
+	height: 25vh;
+	margin: 10px 10px 0px 15px;
+	}
+	.img0002{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+	}
+	.pg0003retImg{
+
+	background-color: black;
+	width: 47%;
+	height: 25vh;
+	margin: 10px 0px 0px 10px;
+	}
+	.img0003{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+	}
+	.pg0004retImg{
+
+	background-color: black;
+	width: 47%;
+	height: 25vh;
+	margin: 10px 10px 0px 15px;
+	}
+	.img0004{
+
+	width: 100%;
+	height: 100%;
+	float: left;
+	}
